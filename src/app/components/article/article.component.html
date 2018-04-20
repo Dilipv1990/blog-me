@@ -1,0 +1,15 @@
+<article>
+  <h1>{{_article.header}}</h1>
+  <sub class="right">{{"Author: "+_article.author}}</sub>
+  <br/>
+  <sub class="right">{{"Date: "+_article.date}}</sub>
+  <p *ngFor="let text of _article.content">
+    <br/>
+    <span *ngIf="text['text']">{{text['text']}}</span>
+    <img mat-card-image src="{{text.picture}}" alt="Loading...." *ngIf="text.picture">
+  </p>
+  <div class="comment-section">
+    <h3>Comments: </h3>
+    <app-comment></app-comment>
+  </div>
+</article>

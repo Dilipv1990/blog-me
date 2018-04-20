@@ -1,0 +1,9 @@
+article{
+	cursor: pointer;
+}
+mat-card{
+	background-color: floralwhite;
+}
+p{
+  font-family: lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    /* flex-flow: column; */
+}
+
+.profile-pg-container {
+    flex: auto;
+    padding: 16px;
+    /* background-image: url("../../../assets/bg1.jpg"); */
+    /* background-repeat: no-repeat; */
+    height: 100%;
+    margin: -8px;
+    width: 80%
+}
+
+li,
+h2 {
+    text-align: start
+}
+
+
+/* 
+h1,
+h2,
+h3,
+p,
+li {
+  color: floralwhite
+} */
+
+.profile_name {
+    text-align: center;
+}
+
+.sidemenu {
+    flex: auto;
+    width: 300px;
+}
+
+.profile-card {
+    max-width: 400px;
+}
+
+.profile-header-image {
+    background-image: url('../../../assets/logo.png');
+    background-size: cover;
+}
+
+li,h2 {
+    font-family: lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
