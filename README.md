@@ -1,4 +1,6 @@
-# Mysite
+# Blog-me
+
+A hobby project created to try out angular 5, angular material, material CDK.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
 
